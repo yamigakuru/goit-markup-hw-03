@@ -4,10 +4,29 @@
     --additional-color: #434455;
 }
 
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+ul{
+    padding-left: 0;
+    margin: 0;
+}
+button{
+    cursor: pointer;
+}
+
+address{
+    font-style: normal;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
     color: var(--additional-color);
+}
+
+img{
+    display: block;
 }
 
 .logo {
@@ -30,6 +49,18 @@ body{
 
 .list{
     list-style: none
+}
+
+.container{
+    width: 1163px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu{
