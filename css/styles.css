@@ -23,6 +23,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
     color: var(--additional-color);
+    margin: 0;
 }
 
 
@@ -52,12 +53,14 @@ body{
 .container{
     width: 1158px;
     padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
 }
 
 .header{
     padding: 24px 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-container{
@@ -116,10 +119,9 @@ body{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #FFFFFF;
     margin-right: 0 auto;
-    padding: 188px 0 292px;
+    padding: 188px 0px 292px;
     width: 496px;
 }
 
@@ -137,10 +139,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    padding: 16px 32px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    margin-right: 0 auto;
+    margin: 48px 0 188px;
 }
 .btn-text:is(:hover, :focus){
     background: #404BBF;
@@ -286,7 +286,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding: 96px 0 72px;
+    margin: 96px 0 72px;
     justify-content: center;
     align-items: center;
 }
@@ -294,22 +294,30 @@ body{
 .img-list{
     display: flex;
     gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
 }
+
+.portfolio-list{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
+}
+
 .portfolio-main-text{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    padding: 32px 0 8px 16px;
 }
 .porfolio-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--additional-color);
+    padding-bottom: 32px;
+    padding: 8px 0 32px 16px;
 }
-
-
-
-
-
