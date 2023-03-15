@@ -26,6 +26,12 @@ body{
     margin: 0;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -113,7 +119,8 @@ body{
 .section-one {
     background: var(--primary-color);
     text-align: center;
-    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .section-one-text {
@@ -124,7 +131,6 @@ body{
     color: #FFFFFF;
     margin: 0 auto;
     width: 496px;
-    padding-top: 188px;
 }
 
 .btn-text {
@@ -145,10 +151,14 @@ body{
 }
 .btn-text:is(:hover, :focus){
     background: #404BBF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: transparent;
 }
 .section-two {
     padding: 120px 0;
+}
+
+.section-two-main{
+    visibility: hidden;
 }
 
 .section-two-list { 
@@ -196,11 +206,13 @@ body{
 .section-four {
     background: #F4F4FD;
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .name-list {
     background-color: white;
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 32px;
 }
 
 .section-four-text {
@@ -211,7 +223,6 @@ body{
     text-align: center;
     text-transform: capitalize;
     color: var(--primary-color);
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -236,7 +247,6 @@ body{
     letter-spacing: 0.02em;
     color: var(--additional-color);
     text-align: center;
-    margin-bottom: 32px;
 }
 
 .footer{
@@ -267,6 +277,15 @@ body{
     margin-top: 16px;
 }
 
+.main-text{
+    visibility: hidden;
+}
+
+.portfolio-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .portfolio-btn{
     cursor: pointer;
     font-family: "Roboto", sans-serif;
@@ -284,7 +303,7 @@ body{
     background: #404BBF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: #FFFFFF;
-    border:none;
+    border-color: transparent;
 }
 
 .wrap{
@@ -294,15 +313,17 @@ body{
     margin-bottom: 72px;
     justify-content: center;
     align-items: center;
-    padding-top: 96px;
 }
 
 .img-list{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 120px;
     gap: 24px;
     
+}
+
+.portfolio-list{
+    padding-bottom: 48px;
 }
 
  
