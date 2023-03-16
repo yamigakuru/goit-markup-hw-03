@@ -158,7 +158,7 @@ img{
 }
 
 .section-two-main{
-    visibility: hidden;
+    color: transparent;
 }
 
 .section-two-list { 
@@ -278,7 +278,7 @@ img{
 }
 
 .main-text{
-    visibility: hidden;
+    color: transparent;
 }
 
 .portfolio-section{
@@ -318,12 +318,12 @@ img{
 .img-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px;
+    column-gap: 24px;
     
 }
 
 .portfolio-list{
-    padding-bottom: 48px;
 }
 
  
