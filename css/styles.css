@@ -32,6 +32,19 @@ img{
     height: auto;
 }
 
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -157,9 +170,6 @@ img{
     padding: 120px 0;
 }
 
-.section-two-main{
-    color: transparent;
-}
 
 .section-two-list { 
     display: flex;
@@ -277,9 +287,6 @@ img{
     margin-top: 16px;
 }
 
-.main-text{
-    color: transparent;
-}
 
 .portfolio-section{
     padding-top: 96px;
@@ -322,10 +329,6 @@ img{
     column-gap: 24px;
     
 }
-
-.portfolio-list{
-}
-
  
 .portfolio-main-text{
     font-weight: 500;
@@ -334,6 +337,7 @@ img{
     letter-spacing: 0.02em;
     color: var(--primary-color);
 }
+
 .porfolio-text{
     font-size: 16px;
     line-height: 1.5;
@@ -341,6 +345,7 @@ img{
     color: var(--additional-color);
     margin-top: 8px;
 }
+
 .list-border{
     padding: 32px 0 32px 16px;
     border: 1px solid #E7E9FC;
